@@ -84,6 +84,10 @@ function cellClicked(event) {
         alert('O wins!');
         for (let i = 0; i < cells.length; i++) {
             cells[i].textContent = ''}
+    } else if (counter === 9) {
+        alert('Draw!');
+        for (let i = 0; i < cells.length; i++) {
+            cells[i].textContent = ''}
     }
 }
 
